@@ -1,0 +1,158 @@
+
+.intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
+	right: 0; background: rgba(0,0,0, .2); }
+	
+.intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+	height: 150px; z-index: -1; background: #000; }
+
+.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #000; }
+
+.intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto; 
+	overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
+
+.intro .information > li{ display: block; margin: 5px 0; }
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+  }
+  
+
+.section .heading{ margin-bottom: 60px; }
+
+.section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
+	margin-bottom: 20px; display: block; background: #FFA804; }
+	
+.margin-t-10{ margin-top: 10px; }
+
+.margin-b-30{ margin-bottom: 30px; }
+.margin-b-50{ margin-bottom: 50px; }
+.font-yellow{ color: #FFA600; }
+
+.margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
+body {
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgba(1,1,1,0.9), rgba(1,1,1,0.9)), url("../Images/code.jpg");
+    background-color: #000000; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color: #FFFFFF;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.9);
+}
+
+section {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding: 100px 0 50px;
+}
+
+.fab {
+    padding: 16px;
+    font-size: large;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.nav-item {
+    margin: 4px;
+}
+
+.far {
+    padding: 16px;
+    font-size: large;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.fab:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.far:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.fa-github-alt {
+    background: #272727;
+    color: white;
+}
+
+.fa-envelope {
+    background: #e25748;
+    color: white;
+}
+.skill {
+    border-radius: 15px;
+    text-align: center;
+    padding: 8px;
+    margin: 4px;
+}
+
+.bordered-nav {
+    border: 1px solid #AED6F1;
+    border-radius: 3px;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+}
+
+.tab-pane .list-group-item {
+    background-color: transparent;
+    border-color: rgb(146, 146, 146);
+}
+
+.tab-pane .list-group-item .small {
+    color: #adadad;
+}
+
+.list-group-item .large {
+    color: #ffffff;
+}
+
+.list-group-item a {
+    color: #47d3f7;
+}
+
+.nav-pills .nav-item {
+    margin: 2px;
+    color: #FFFFFF;
+}
+
+.tab-content {
+    padding: 4px;
+}
+
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
