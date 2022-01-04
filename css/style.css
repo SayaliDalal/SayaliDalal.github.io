@@ -143,9 +143,11 @@ section {
 .tab-content {
     padding: 4px;
 }
+.card-deck {
+    margin:auto;
+}
 .card-deck .card {
   margin-top: 16px;
-  
   background-color: transparent;
   border-width: 1px;
   border-radius: 4px;
